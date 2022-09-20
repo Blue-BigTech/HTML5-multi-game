@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "plugin:jest/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "plugins": ["import", "jest"],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "no-console": "off",
+    "no-else-return": "off",
+    "no-plusplus": "off",
+    "no-use-before-define": ["error", { "functions": false }],
+    "object-curly-newline": "off",
+    "operator-linebreak": ["error", "after"]
+  }
+}
