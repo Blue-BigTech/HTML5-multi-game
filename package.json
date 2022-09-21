@@ -1,16 +1,16 @@
 {
-  "name": "io-game-from-scratch",
+  "name": "html5-multi-game-from-scratch",
   "version": "1.0.0",
   "description": "",
   "main": "src/server/server.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint --cache --ext .js,.jsx src/",
-    "develop": "cross-env NODE_ENV=development node src/server/server.js",
+    "dev": "cross-env NODE_ENV=development node src/server/server.js",
     "start": "cross-env NODE_ENV=production node src/server/server.js",
     "test": "jest"
   },
-  "author": "Victor Zhou",
+  "author": "BrentCheng",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.3",
